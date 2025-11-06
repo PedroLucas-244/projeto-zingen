@@ -3,8 +3,7 @@
 }
 
 .py-lg{
-    padding-block: var(--py-lg
-);
+    padding-block: var(--py-lg);
 }
 
 .py-xl{
@@ -22,6 +21,18 @@
 .container{
     --max-width: 375px;
     width: min(var(--max-width), 100% - var(--px-lg) * 2);
+}
+
+.flex{
+    display: flex;
+}
+
+.gap-1{
+    gap: 1rem;
+}
+
+.grid{
+    display: grid;
 }
 
 .even-columns{
